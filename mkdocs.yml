@@ -1,0 +1,52 @@
+# Project information
+site_name: 'ReARMit Docs'
+site_description: 'ReARMit Project Documentation'
+site_author: 'gleam2003'
+site_url: 'https://rearm.it/'
+edit_uri: https://github.com/Rearmit/ReARMit-Docs/edit/master/docs/
+
+# Repository
+repo_name: 'ReARMit-Setup'
+repo_url: 'https://github.com/Rearmit/RetroPie-Setup'
+
+# Copyright
+copyright: 'Copyright &copy; 2024 <a href="https://rearm.it" target=_blank>gleam2003</a>'
+
+# Plugins
+plugins:
+  - search
+  - blog
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  features:
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: red
+      primary: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+# Customisation
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Rearmit
+
+nav:
+- Home: README.md
+- Manual Installation: Manual-Installation.md
