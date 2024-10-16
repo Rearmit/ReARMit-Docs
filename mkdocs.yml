@@ -19,14 +19,10 @@ plugins:
 
 # Configuration
 theme:
-  name: 'material'
-  language: 'en'
+  name: material
+  language: en
   features:
-    - navigation.top
-    - content.action.edit
     - content.code.copy
-    - search.highlight
-    - search.suggest
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -47,9 +43,18 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Rearmit
 
+# Extensions
+markdown_extensions:
+  - admonition
+
+extra_css:
+  - stylesheets/extra.css
+
 nav:
 - Home: README.md
-- Manual Installation: manual-installation.md
+- Installation:
+  - CmdLine: installation/cmdline.md
+  - Chroot: installation/chroot.md
 - Download: download.md
 - About:
   - Changelogs: changelogs.md
