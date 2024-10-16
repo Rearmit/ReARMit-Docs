@@ -3,7 +3,7 @@ site_name: 'ReARMit Docs'
 site_description: 'ReARMit Project Documentation'
 site_author: 'gleam2003'
 site_url: 'https://rearm.it/'
-edit_uri: https://github.com/Rearmit/ReARMit-Docs/edit/master/docs/
+edit_uri: https://github.com/Rearmit/ReARMit-Docs/edit/main/docs/
 
 # Repository
 repo_name: 'ReARMit-Setup'
@@ -49,4 +49,7 @@ extra:
 
 nav:
 - Home: README.md
-- Manual Installation: Manual-Installation.md
+- Manual Installation: manual-installation.md
+- Download: download.md
+- About:
+  - Changelogs: changelogs.md
